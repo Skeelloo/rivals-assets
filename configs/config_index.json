@@ -22,5 +22,13 @@
     "name": "vertsxzims config",
     "tags": "semi rage",
     "version": "1.0"
+  },
+  {
+    "author": "Default Settings",
+    "description": "Regular Config Startup",
+    "file": "default_settings_devconfig.json",
+    "name": "dev_config",
+    "tags": "developer",
+    "version": "1.0"
   }
 ]
