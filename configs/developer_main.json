@@ -1,0 +1,477 @@
+{
+  "_meta": {
+    "author": "developer",
+    "description": "hell",
+    "name": "main",
+    "tags": "nigger"
+  },
+  "adaptiveFov": {
+    "closeDist": 50.0,
+    "enabled": false,
+    "farDist": 300.0,
+    "scaleClose": 2.0,
+    "scaleFar": 0.5,
+    "showCircle": false
+  },
+  "aimbot": {
+    "aimOffset": 0.0,
+    "bulletTP": false,
+    "customTimeDilation": false,
+    "customTimeDilationVal": 0.15000000596046448,
+    "dynamicFOV": false,
+    "enabled": true,
+    "fov": 8,
+    "fovCircle": true,
+    "fovCircleColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "hitbox": "Head",
+    "humanizer": false,
+    "humanizerLevel": 5.0,
+    "key": 1,
+    "keyName": "LMB",
+    "maxDistance": 500.0,
+    "maxFovMul": 1.5,
+    "minFovMul": 0.5,
+    "prediction": true,
+    "priority": 0,
+    "projectileSpeed": 10000.0,
+    "smoothing": 8.0,
+    "snapLine": true,
+    "snapLineColor": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "snapLineThickness": 1.0,
+    "teamCheck": true,
+    "visCheck": true
+  },
+  "antiDetection": {
+    "actionSpreadMs": 50.0,
+    "antiScreenshot": false,
+    "enabled": true,
+    "humanizedMouse": true,
+    "inputJitter": true,
+    "inputJitterMs": 15.0,
+    "memoryCloaking": true,
+    "mouseHumanizeStrength": 0.5,
+    "spreadActions": true,
+    "threadHiding": true,
+    "timingRandomization": true,
+    "timingVariance": 0.30000001192092896
+  },
+  "autoHeal": {
+    "enabled": false,
+    "heroes": {
+      "Adam Warlock": {
+        "enabled": false,
+        "threshold": 249.0
+      },
+      "Cloak & Dagger": {
+        "enabled": false,
+        "threshold": 274.0
+      },
+      "Jeff": {
+        "enabled": false,
+        "threshold": 249.0
+      },
+      "Loki": {
+        "enabled": false,
+        "threshold": 274.0
+      },
+      "Ultron": {
+        "enabled": false,
+        "threshold": 249.0
+      }
+    }
+  },
+  "autoShield": {
+    "Hulk": {
+      "enabled": false,
+      "threshold": 749.0
+    },
+    "Invisible Woman": {
+      "enabled": false,
+      "threshold": 276.0
+    },
+    "Mister Fantastic": {
+      "enabled": false,
+      "threshold": 374.0
+    },
+    "Namor": {
+      "enabled": false,
+      "threshold": 274.0
+    },
+    "Scarlet Witch": {
+      "enabled": false,
+      "threshold": 249.0
+    },
+    "Venom": {
+      "enabled": false,
+      "threshold": 799.0
+    }
+  },
+  "autoSkill": {
+    "autoDetect": true,
+    "autoMelee": false,
+    "enabled": false
+  },
+  "chams": {
+    "enabled": false,
+    "healthBased": false,
+    "notVisibleColor": [
+      1.0,
+      0.0,
+      0.0,
+      0.7058823704719543
+    ],
+    "opacity": 0.699999988079071,
+    "outline": true,
+    "outlineColor": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "outlineThickness": 2.0,
+    "style": 0,
+    "teamCheck": true,
+    "throughWalls": true,
+    "visibleColor": [
+      0.0,
+      1.0,
+      0.0,
+      0.7058823704719543
+    ]
+  },
+  "colors": {
+    "barBg": [
+      0.0,
+      0.0,
+      0.0,
+      0.7843137979507446
+    ],
+    "crosshair": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "distanceOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distanceText": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "healthBarOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "healthHigh": [
+      0.0,
+      1.0,
+      0.0,
+      0.9803922176361084
+    ],
+    "healthLow": [
+      1.0,
+      0.0,
+      0.0,
+      0.9803922176361084
+    ],
+    "healthMid": [
+      1.0,
+      1.0,
+      0.0,
+      0.9803922176361084
+    ],
+    "healthText": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "healthTextOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "heroNameBg": [
+      0.0,
+      0.0,
+      0.0,
+      0.5882353186607361
+    ],
+    "heroNameOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "heroNameText": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "nonVisible": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "skeleton": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tracer": [
+      1.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "ultBar": [
+      1.0,
+      1.0,
+      0.0,
+      0.9803922176361084
+    ],
+    "ultBarOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "ultText": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "ultTextOutline": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "visible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "crosshair": {
+    "gap": 3.0,
+    "outline": false,
+    "size": 5.0,
+    "thickness": 1.0,
+    "type": 0
+  },
+  "esp": {
+    "box": true,
+    "boxOutline": true,
+    "boxOutlineColor": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "boxThickness": 1.0,
+    "boxType": 0,
+    "distancePos": 3,
+    "enabled": true,
+    "glow": true,
+    "healthBar": true,
+    "healthBarPos": 0,
+    "heroNamePos": 2,
+    "maxDistance": 500.0,
+    "showDistance": false,
+    "showHealthText": false,
+    "showHeroNames": true,
+    "showUltText": false,
+    "skeleton": true,
+    "teamCheck": true,
+    "tracerLines": false,
+    "tracerStartPos": 1,
+    "ultBarPos": 1,
+    "ultPercentage": true
+  },
+  "filters": {
+    "banPhase": false,
+    "distanceFilter": 500.0,
+    "drawStyle": 0,
+    "espFontSize": 14.0,
+    "textPosition": 0
+  },
+  "healer": {
+    "autoHealTeammates": false,
+    "autoShield": false,
+    "autoUltHeal": false,
+    "criticalColor": [
+      1.0,
+      0.19607844948768616,
+      0.19607844948768616,
+      1.0
+    ],
+    "dashboard": false,
+    "dashboardPos": [
+      20.0,
+      350.0
+    ],
+    "healableColor": [
+      0.0,
+      1.0,
+      0.3921568989753723,
+      1.0
+    ],
+    "losCheck": true,
+    "mode": false,
+    "notifyLowHP": false,
+    "notifyThreshold": 25.0,
+    "priorityLowest": true,
+    "range": 30.0,
+    "rangeIndicator": false,
+    "shieldThreshold": 50.0,
+    "smartTarget": false,
+    "teammateColor": [
+      0.0,
+      0.5882353186607361,
+      1.0,
+      1.0
+    ],
+    "teammateESP": false,
+    "teammateHP": false,
+    "threshold": 70.0,
+    "ultHealThreshold": 30.0
+  },
+  "healthPack": {
+    "distance": true,
+    "enabled": false,
+    "fontSize": 12.0,
+    "maxDist": 150.0,
+    "onlyNoCD": false,
+    "snaplines": false
+  },
+  "heroLock": {
+    "enabled": false,
+    "instaLockHero": false,
+    "instaLockRole": false,
+    "role": 3,
+    "selectedHero": 0
+  },
+  "hitbox": {
+    "armsL": 1.0,
+    "armsR": 1.0,
+    "body": 1.0,
+    "enabled": false,
+    "head": 1.0,
+    "legsL": 1.0,
+    "legsR": 1.0
+  },
+  "hotkeys": {
+    "bulletTP": 0,
+    "bulletTPName": "None",
+    "esp": 0,
+    "espName": "None",
+    "glow": 0,
+    "glowName": "None",
+    "menu": 45,
+    "menuName": "Insert",
+    "rageKey": 0,
+    "rageKeyName": "None",
+    "selfTime": 0,
+    "selfTimeName": "None",
+    "spinbot": 0,
+    "spinbotName": "None"
+  },
+  "misc": {
+    "enemyOverlay": true,
+    "fovAmount": 115,
+    "fovChanger": true,
+    "hideLocal": false,
+    "localCheck": true,
+    "rapidFire": false,
+    "rapidFireRate": 0.10000000149011612,
+    "selfTimeDilation": false,
+    "selfTimeDilationVal": 0.15000000596046448,
+    "smallPerson": false,
+    "smallScale": 0.5,
+    "spinSpeedX": 10.0,
+    "spinSpeedY": 10.0,
+    "spinSpeedZ": 10.0,
+    "spinbot": false,
+    "spinbotX": false,
+    "spinbotY": false,
+    "spinbotZ": false
+  },
+  "radar": {
+    "design": 0,
+    "enabled": false,
+    "pos": [
+      20.0,
+      200.0
+    ],
+    "range": 5000.0,
+    "size": 150.0,
+    "zoom": 1.0
+  },
+  "rage": {
+    "confirmation": true,
+    "enabled": false,
+    "separateKey": false,
+    "showFovSilent": false,
+    "silentAdaptive": false,
+    "silentAim": false,
+    "silentHealOnly": false,
+    "silentMagicFov": 15.0
+  },
+  "skinChanger": {
+    "customEnabled": false,
+    "enabled": false
+  },
+  "widgets": {
+    "activeFeatures": true,
+    "activeFeaturesPos": [
+      20.0,
+      300.0
+    ],
+    "damageLog": false,
+    "damageLogPos": [
+      20.0,
+      400.0
+    ],
+    "info": true,
+    "infoPos": [
+      20.0,
+      20.0
+    ],
+    "keybind": true,
+    "keybindPos": [
+      20.0,
+      120.0
+    ],
+    "ultTracker": true,
+    "ultTrackerPos": [
+      20.0,
+      500.0
+    ],
+    "watermark": true
+  }
+}
